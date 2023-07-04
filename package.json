@@ -1,0 +1,35 @@
+{
+  "name": "mic-check-ui",
+  "version": "1.0.0",
+  "description": "Uses mic-check to provide popups helping the user to provide audio and video permissions. Standalone.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/runekaagaard/mic-check-ui.git"
+  },
+  "keywords": [
+    "audio",
+    "video",
+    "permissions",
+    "camera",
+    "michrophone",
+    "mic",
+    "cam"
+  ],
+  "author": "Rune Kaagaard",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/runekaagaard/mic-check-ui/issues"
+  },
+  "homepage": "https://github.com/runekaagaard/mic-check-ui#readme",
+  "dependencies": {
+    "bowser": "^2.11.0",
+    "mic-check": "^1.1.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
