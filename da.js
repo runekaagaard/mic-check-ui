@@ -354,17 +354,15 @@ export const da = {
             "SystemPermissionDenied": {
                "title": "Appen har ikke adgang til kamera eller mikrofon",
                "help": [
-                  "Åbn Indstillinger og gå til Anonymitet og sikkerhed.",
-                  "Tryk på Kamera, og slå Chrome til i listen.",
-                  "Tryk derefter på Mikrofon, og slå Chrome til."
+                  "Gå til Indstillinger på din enhed og find Chrome i listen over applikationer.",
+                  "Slå Kamera og Mikrofon tilladelserne til."
                ]
             },
             "UserPermissionDenied": {
                "title": "Tilladelse nægtet",
                "help": [
-                  "Åbn Indstillinger og gå til Anonymitet og sikkerhed.",
-                  "Tryk på Kamera, og slå Chrome til i listen.",
-                  "Tryk derefter på Mikrofon, og slå Chrome til."
+                  "Gå til Indstillinger på din enhed og find Chrome i listen over applikationer.",
+                  "Slå Kamera og Mikrofon tilladelserne til."
                ]
             },
             "CouldNotStartVideoSource": {
@@ -420,6 +418,44 @@ export const da = {
                   "Hvis problemet fortsætter, prøv at genstarte din browser eller enhed."
                ]
             }
+         },
+         "Firefox": {
+            "PermissionRequired": {
+               "title": "Tilladelse krævet",
+               "help": [
+                  "Vi skal til at bede om din tilladelse til at få adgang til kameraet og mikrofonen.",
+                  "Dette gøres normalt via en pop op-dialogboks."
+               ]
+            },
+            "SystemPermissionDenied": {
+               "title": "Appen har ikke adgang til kamera eller mikrofon",
+               "help": [
+                  "Gå til Indstillinger på din enhed og find Firefox i listen over applikationer.",
+                  "Slå Kamera og Mikrofon tilladelserne til."
+               ]
+            },
+            "UserPermissionDenied": {
+               "title": "Tilladelse nægtet",
+               "help": [
+                  "Gå til Indstillinger på din enhed og find Firefox i listen over applikationer.",
+                  "Slå Kamera og Mikrofon tilladelserne til."
+               ]
+            },
+            "CouldNotStartVideoSource": {
+               "title": "En anden applikation bruger kameraet",
+               "help": [
+                  "Vi kunne ikke få adgang til kameraet, fordi det bliver brugt af en anden applikation.",
+                  "Luk venligst andre applikationer, der muligvis bruger kameraet eller mikrofonen, og genindlæs derefter denne side."
+               ]
+            },
+            "Generic": {
+               "title": "Der opstod en fejl",
+               "help": [
+                  "Vi stødte på et problem, mens vi forsøgte at få adgang til dit kamera og din mikrofon.",
+                  "Sørg for at de er forbundet og fungerer korrekt, og at ingen andre applikationer eller faner bruger dem.",
+                  "Hvis problemet fortsætter, prøv at genstarte din browser eller enhed."
+               ]
+            }
          }
       }
    },
@@ -435,17 +471,19 @@ export const da = {
          "SystemPermissionDenied": {
             "title": "Appen har ikke adgang til kamera eller mikrofon",
             "help": [
-               "Åbn Indstillinger og gå til Anonymitet og sikkerhed.",
-               "Tryk på Kamera, og slå Chrome til i listen.",
-               "Tryk derefter på Mikrofon, og slå Chrome til."
+               "Tryk på \"Mere\" (tre prikker), derefter \"Indstillinger\".",
+               "Tryk på Indstillinger for website.",
+               "Tryk på Mikrofon eller Kamera.",
+               "Tryk for at slå mikrofonen eller kameraet til eller fra."
             ]
          },
          "UserPermissionDenied": {
             "title": "Tilladelse nægtet",
             "help": [
-               "Åbn Indstillinger og gå til Anonymitet og sikkerhed.",
-               "Tryk på Kamera, og slå Chrome til i listen.",
-               "Tryk derefter på Mikrofon, og slå Chrome til."
+               "Tryk på \"Mere\" (tre prikker), derefter \"Indstillinger\".",
+               "Tryk på Indstillinger for website.",
+               "Tryk på Mikrofon eller Kamera.",
+               "Tryk for at slå mikrofonen eller kameraet til eller fra."
             ]
          },
          "CouldNotStartVideoSource": {
@@ -464,7 +502,7 @@ export const da = {
             ]
          }
       },
-      "Safari": {
+      "Firefox": {
          "PermissionRequired": {
             "title": "Tilladelse krævet",
             "help": [
@@ -475,8 +513,14 @@ export const da = {
          "SystemPermissionDenied": {
             "title": "Appen har ikke adgang til kamera eller mikrofon",
             "help": [
-               "Gå til Indstillinger på din enhed og find Safari i listen over applikationer.",
-               "Slå Kamera og Mikrofon tilladelserne til."
+               "Prøv først at genindlæse siden. Hvis det ikke virker, så prøv følgende:",
+               "Slå Kamera og Mikrofon tilladelserne til.",
+               "På din enhed, åbn hovedindstillingsappen.",
+               "Tryk på \"Apps & underretninger\" eller \"Apps\".",
+               "Tryk på \"Firefox\" i listen over apps.",
+               "Tryk på \"Tilladelser.\"",
+               "Find \"Kamera\" og \"Mikrofon.\"",
+               "Tryk på Kamera og Mikrofon, og vælg derefter \"Tillad\" for at aktivere adgangen."
             ]
          },
          "UserPermissionDenied": {
